@@ -1,0 +1,33 @@
+body{
+    overflow:  hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.eyes {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(black, transparent);
+}
+.eye_left,.eye_right {
+    border: 5px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    float: left;
+}
+
+.pupil{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    left: 70px;
+    bottom: 35px;
+}
